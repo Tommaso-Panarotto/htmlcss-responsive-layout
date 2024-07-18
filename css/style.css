@@ -12,6 +12,10 @@ body {
     font-family: "Montserrat", 'Helvetica Neue', sans-serif;
 }
 
+main {
+    padding-top: 120px;
+}
+
 h1 {
     font-family: 'Nerko One', "cursive";
     font-size: 50px;
@@ -37,6 +41,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
 /* Utils */
 .container {
     max-width: 1200px;
@@ -49,12 +57,20 @@ ul {
 }
 
 /*Margin*/
+.mrp-25 {
+    margin: 25px 0;
+}
+
 .mrp-15 {
     margin: 15px 0;
 }
 
 .mrl-15 {
     margin: 0 15px;
+}
+
+.mrt-20 {
+    margin-top: 20px;
 }
 
 .mrb-20 {
@@ -134,6 +150,11 @@ ul {
     padding: 15px 0;
     display: flex;
     justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 
 /*Main*/
@@ -213,4 +234,24 @@ iframe {
     background-color: white;
     padding: 10px 15px;
     border-radius: 20px;
+}
+
+/*Presentation*/
+.presentation .separator {
+    width: 80px;
+    border: 2px solid #FF9614;
+}
+
+.presentation h2 {
+    font-weight: 500;
+}
+
+.presentation img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.presentation p {
+    padding: 10px 0;
+    line-height: 30px;
 }
