@@ -1,5 +1,6 @@
 /*Tablet mode 768*/
-.recipe-name>h2 span {
+.recipe-name>h2 span,
+.banner {
     display: none;
 }
 
@@ -27,5 +28,13 @@
 
     .recipe-summary li {
         flex-basis: calc(100% / 3);
+    }
+
+    .socials a {
+        padding: 10px 50px;
+    }
+
+    .banner {
+        display: block;
     }
 }
