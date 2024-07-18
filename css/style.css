@@ -49,6 +49,10 @@ ul {
 }
 
 /*Margin*/
+.mrp-15 {
+    margin: 15px 0;
+}
+
 .mrl-15 {
     margin: 0 15px;
 }
@@ -62,6 +66,10 @@ ul {
 }
 
 /*Padding*/
+.pdp-15 {
+    padding: 15px 0;
+}
+
 .pd-15 {
     padding: 15px;
 }
@@ -92,16 +100,32 @@ ul {
 }
 
 /*Color*/
-.f-orange {
+.orange {
     color: #FF9614;
 }
 
-.f-purple {
+.purple {
     color: #4E3969;
 }
 
-.f-white {
+.white {
     color: white;
+}
+
+.dazure {
+    color: #1A77F3;
+}
+
+.azure {
+    color: #009EFF;
+}
+
+.pink {
+    color: #DE7DB8;
+}
+
+.red {
+    color: #E62222;
 }
 
 /*Topbar*/
@@ -177,4 +201,16 @@ iframe {
 
 .recipe-summary i {
     color: #FF9614;
+}
+
+/*Socials*/
+.socials ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials a {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
