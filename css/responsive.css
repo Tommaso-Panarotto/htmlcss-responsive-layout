@@ -76,4 +76,14 @@
         display: inline-block;
         color: black;
     }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .society {
+        text-align: left;
+    }
 }
