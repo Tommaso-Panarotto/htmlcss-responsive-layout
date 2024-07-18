@@ -9,21 +9,35 @@
 body {
     font-family: sans-serif;
     background-color: #F6F5F3;
+    font-family: "Montserrat", 'Helvetica Neue', sans-serif;
 }
 
 h1 {
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', "cursive";
     font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h4 {
+    color: #BCBBBB;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 /* Utils */
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /*Margin*/
@@ -31,14 +45,35 @@ a {
     margin-bottom: 20px;
 }
 
+.mrb-10 {
+    margin-bottom: 10px;
+}
+
+/*Padding*/
+.pdb-10 {
+    padding-bottom: 10px;
+}
+
 /*BG Color*/
 .bg-white {
     background-color: white;
 }
 
+.bg-orange {
+    background-color: #FF9614;
+}
+
 /*Color*/
 .f-orange {
     color: #FF9614;
+}
+
+.f-purple {
+    color: #4E3969;
+}
+
+.f-white {
+    color: white;
 }
 
 /*Topbar*/
@@ -47,4 +82,23 @@ a {
     padding: 15px 0;
     display: flex;
     justify-content: center;
+}
+
+/*Main*/
+/*Main header*/
+.recipe header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-rating {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.rate a {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
 }
