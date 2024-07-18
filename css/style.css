@@ -45,6 +45,10 @@ img {
     display: block;
 }
 
+address {
+    font-size: 13px;
+}
+
 /* Utils */
 .container {
     max-width: 1200px;
@@ -254,4 +258,29 @@ iframe {
 .presentation p {
     padding: 10px 0;
     line-height: 30px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 40px;
+    color: white;
+    min-height: 150px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer li {
+    margin: 0 auto;
 }
