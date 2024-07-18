@@ -1,0 +1,41 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font-family: sans-serif;
+    background-color: #F6F5F3;
+}
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    font-size: 50px;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*BG Color*/
+.bg-white {
+    background-color: white;
+}
+
+/*Color*/
+.f-orange {
+    color: #FF9614;
+}
+
+/*Topbar*/
+.topbar {
+    min-height: 50px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
