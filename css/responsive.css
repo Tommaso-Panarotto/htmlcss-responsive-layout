@@ -1,6 +1,7 @@
 /*Tablet mode 768*/
 .recipe-name>h2 span,
-.banner {
+.banner,
+.socials b {
     display: none;
 }
 
@@ -31,7 +32,7 @@
     }
 
     .socials a {
-        padding: 10px 50px;
+        padding: 10px 30px;
     }
 
     .banner {
@@ -69,5 +70,10 @@
 
     .recipe-video {
         height: 430px;
+    }
+
+    .socials b {
+        display: inline-block;
+        color: black;
     }
 }
