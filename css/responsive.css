@@ -42,4 +42,8 @@
         float: left;
         padding-right: 10px;
     }
+
+    .recipe-video {
+        height: 380px;
+    }
 }

@@ -270,14 +270,11 @@ footer {
 
 footer ul {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px 10px;
+    gap: 20px;
 }
 
 footer a {
     text-decoration: underline;
-}
-
-footer li {
-    margin: 0 auto;
 }
