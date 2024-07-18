@@ -12,10 +12,6 @@ body {
     font-family: "Montserrat", 'Helvetica Neue', sans-serif;
 }
 
-main {
-    padding-top: 120px;
-}
-
 h1 {
     font-family: 'Nerko One', "cursive";
     font-size: 50px;
@@ -53,7 +49,7 @@ address {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 110px 15px 30px 15px;
 }
 
 .separator {
@@ -151,7 +147,7 @@ address {
 /*Topbar*/
 .topbar {
     min-height: 50px;
-    padding: 15px 0;
+    padding: 15px 15px;
     display: flex;
     justify-content: center;
     position: fixed;
