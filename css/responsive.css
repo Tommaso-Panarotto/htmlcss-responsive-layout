@@ -47,3 +47,27 @@
         height: 380px;
     }
 }
+
+/*Desktop 992*/
+
+@media screen and (min-width: 993px) {
+    .recipe-name h2 {
+        font-size: 40px;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-info {
+        flex-basis: 40%;
+    }
+
+    .recipe-summary ul {
+        display: block;
+    }
+
+    .recipe-video {
+        height: 430px;
+    }
+}
