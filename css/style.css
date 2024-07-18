@@ -16,10 +16,19 @@ h1 {
     font-size: 50px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Utils */
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/*Margin*/
+.mrb-20 {
+    margin-bottom: 20px;
 }
 
 /*BG Color*/
