@@ -257,6 +257,10 @@ iframe {
     line-height: 30px;
 }
 
+.tiramisu {
+    min-width: 200px;
+}
+
 /*footer*/
 footer {
     display: flex;

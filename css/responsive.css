@@ -5,6 +5,14 @@
     display: none;
 }
 
+@media screen and (min-width: 400px) {
+    .presentation img {
+        float: left;
+        padding-right: 10px;
+    }
+}
+
+
 @media screen and (min-width: 769px) {
     .topbar {
         justify-content: flex-start;
@@ -37,11 +45,6 @@
 
     .banner {
         display: block;
-    }
-
-    .presentation img {
-        float: left;
-        padding-right: 10px;
     }
 
     .recipe-video {
